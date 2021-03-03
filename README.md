@@ -1,4 +1,5 @@
 #PROGRAMA PARA SELECCIONAR ACTORES DE UNA BASE DE DATOS
+
 Esto es un programa que se pretende que vaya actualizando y mejorando
 
 La base de datos no puede ser pública debido a que contiene información confidencial de cada
