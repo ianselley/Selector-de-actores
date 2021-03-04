@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas.core.frame import DataFrame
-pd.options.display.max_rows=None
-pd.options.display.max_columns=None
+pd.options.display.max_rows = None
+pd.options.display.max_columns = None
 
 Actores = 'actores'
 NombreArchivo = f'Base_de_datos_{Actores}.ods'
