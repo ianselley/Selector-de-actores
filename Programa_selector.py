@@ -20,7 +20,7 @@ cols2 = df_cols2.values.tolist()
 def col_of_list(lis, print1, print2):
     i = ''
     n = 0
-    col_eleg_l = '^*:;)=/q$·¡ª!3·~¬€fhg@|}j{[d]+`^*!vv"g$fb$*^Çç¨_:;;' #imposible de acertar por el usuario 
+    col_eleg_l = 'a' # str cualquiera diferente de i
     while col_eleg_l != i.lower():
         if n >=1:
             print('\nOPCIÓN NO VÁLIDA')
@@ -62,7 +62,7 @@ while repetir == 's':
             n2 += 1
 
     # Especifico para cuando escoge las demás que no son números
-    obj = '^*:;)=/q$·¡ª!3·~¬€fhg@|}j{[d]+`^*!vv"g$fb$*^Çç¨_:;;' #imposible de acertar por el usuario
+    obj = 'a' # str cualquiera diferente de i
     if col_eleg_l == 'edad' or col_eleg_l == 'estatura' or col_eleg_l == 'numero de actor':
         pass
     else:
